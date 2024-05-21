@@ -1,0 +1,184 @@
+.links li a {
+    color: #5d5d5d; /* Set the text color to white */
+ /* Remove underline from links */
+}
+
+/* This will make only the "Get Started" link text white */
+ a {
+    color: black;
+}
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+
+/* Start Landing Page */
+ header {
+  min-height: 80px;
+  display: flex;
+}
+
+ header {
+    min-height: auto;
+    display: initial;
+  }
+
+ header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ header .logo {
+  color: brown;
+  font-style: italic;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+header .links {
+  display: flex;
+  align-items: center;
+}
+
+header .links li {
+  margin-left: 30px;
+  color: black;
+  cursor: pointer;
+  transition: .3s;
+}
+
+header .links li:last-child {
+  border-radius: 25px;
+  padding: 10px 50px;
+  color: #FFF;
+  background-color: pink;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 98%; /* Full width */
+  padding: 13px; /* Some padding */ 
+  border: 1px solid black; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  border-radius: 25px;
+  padding: 15px 50px;
+  border: 2px solid white;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: red;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 3px;
+  background-color:#f2f7f4;
+  padding: 9px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+
+* {
+  font-family: Open Sans;
+}
+
+section {
+  width: 100%;
+  display: inline-block;
+  background: ;
+  height: 50vh;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+body{
+margin:0;
+overflow-x:hidden;
+}
+
+.footer{
+background:GREY;
+padding:25px 0px;
+font-family: 'play', fantasy;
+text-align: center;
+}
+
+.footer .row{
+width:100%;
+margin:1% 0%;
+padding:0.6% 0%;
+font-size:1.2em;
+}
+
+.footer .row a{
+text-decoration:none;
+color:yellow;
+transition:2s;
+}
+
+.footer .row a:hover{
+color:red;
+}
+
+.footer .row ul{
+width:100%;
+}
+
+.footer .row ul li{
+display:inline-block;
+margin:0px 36px;
+}
+
+.footer .row a i{
+font-size:2em;
+margin:0% 1%;
+}
+
+@media (max-width:720px){
+.footer{
+text-align:center;
+padding:5%;
+}
+.footer .row ul li{
+display:block;
+margin:10px 0px;
+text-align:left;
+}
+.footer .row a i{
+margin:0% 3%;
+}
+
+}

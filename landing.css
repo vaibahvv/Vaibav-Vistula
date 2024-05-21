@@ -1,0 +1,179 @@
+.links li a {
+    color: #5d5d5d; /* Set the text color to white */
+ /* Remove underline from links */
+}
+
+/* This will make only the "Get Started" link text white */
+#getstarted a {
+    color: white;
+  padding:15px
+}
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+/*  background color of body  */
+  background-color:#F4F1DE;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  
+}
+.container {
+  padding-left: 30px;
+  padding-right: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+
+/* Start Landing Page */
+.landing-page header {
+  min-height: 80px;
+  display: flex;
+  
+}
+
+  .landing-page header {
+    min-height: auto;
+    display: inline;
+  }
+
+.landing-page header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.landing-page header .logo {
+  color: brown;
+  font-style: italic;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.landing-page header .links {
+  display: flex;
+  align-items: center;
+  padding:1px;
+ 
+}
+
+.landing-page header .links li {
+  margin-left: 33px;
+  color: black;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.landing-page header .links li:last-child {
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: black;
+  background-color: black;
+}
+
+.landing-page .content .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  min-height: calc(100vh - 80px);
+}
+
+.landing-page .content .info h1 {
+  color:green ;
+  font-size: 50px;
+ 
+}
+.landing-page .content .info p {
+  margin: 0;
+  line-height: 2;
+  max-width: 60%;
+  font-size: 17px;
+   
+}
+.landing-page .content .info button {
+  border: none;
+  border-radius: 30px;
+  padding: 15px 32px;
+  margin-top: 30px;
+  cursor: pointer;
+  color:black ;
+  background-color:grey ;
+  font-size: 13.5px
+}
+.landing-page .content .image img {
+  max-width: 150%;
+  margin-right: 250px;
+  padding:0.9px;
+  
+}
+/* End Landing Page */
+
+
+body{
+margin:0;
+overflow-x:hidden;
+}
+
+.footer{
+background:#E07A5F;
+padding:25px 0px;
+font-family: 'play', fantasy;
+text-align: center;
+}
+
+.footer .row{
+width:100%;
+margin:1% 0%;
+padding:0.6% 0%;
+font-size:1.2em;
+}
+
+.footer .row a{
+text-decoration:none;
+color:yellow;
+transition:2s;
+}
+
+.footer .row a:hover{
+color:red;
+}
+
+.footer .row ul{
+width:100%;
+}
+
+.footer .row ul li{
+display:inline-block;
+margin:0px 36px;
+}
+
+.footer .row a i{
+font-size:2em;
+margin:0% 1%;
+}
+
+@media (max-width:720px){
+.footer{
+text-align:center;
+padding:5%;
+}
+.footer .row ul li{
+display:block;
+margin:10px 0px;
+text-align:left;
+}
+.footer .row a i{
+margin:0% 3%;
+}
+}
+
